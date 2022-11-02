@@ -5,8 +5,23 @@ WS 22 - Conditionals
 
 ### 📝 Aufgabe:
 
+1. Schreibt eine kleine ```Methode```, die Überprüfen soll ob ein ```int``` Wert größer als 0 oder kleiner als 0 ist.
+  - Als Rückgabewert soll ein ```int``` zurückgegeben werden:
+    - 1 bei einem positiven ```int```
+    - -1 bei einem negativen ```int```
+    - 0 wenn auch der zu prüfende ```int``` Wert 0 ist
 
-  
+
+-----------------------------
+
+
+2. Schreibt eine Methode die "User-Eingaben" mit einem ```switch-case``` Statement auswerten soll
+  - Als Argument nimmt diese Methode einen ```String```
+    - Wenn der ```String``` mit der Zeichenkette **"exit"** übereinstimmt, lasst in der Konsole **"Das Programm wird beendet"** ausgeben
+    - Wenn der ```String``` mit der Zeichenkette **"start "** übereinstimmt, lasst in der Konsole **"Das Programm wird jetzt ausgeführt. Das kann einige Minuten dauern"** ausgeben
+    - Wenn der ```String``` mit der Zeichenkette **"pause"** übereinstimmt, lasst in der Konsole **"Rechenvorgang pausiert"** ausgeben
+
+    
   
   
   ### ℹ️ Resourcen:
