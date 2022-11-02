@@ -10,7 +10,12 @@ public class Application {
 		System.out.println("Ergebnis ist: " + i);
 	
 		Scanner sc = new Scanner(System.in);
-		userInput(sc.nextLine());
+		
+		while(true) {
+			userInput(sc.nextLine());
+		}
+		
+		
 		
 	}
 	
@@ -34,6 +39,7 @@ public class Application {
 		
 		case "exit":
 			System.out.println("Das Programm wird beendet");
+			System.exit(0);
 			break;
 		case "pause":
 			System.out.println("Das Programm wird pausiert");
